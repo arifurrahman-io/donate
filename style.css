@@ -1,0 +1,149 @@
+body{
+  margin: 0%;
+  padding: 0%;
+  font-family: 'Oswald', sans-serif;
+  width: 100%;
+}
+
+.hero{
+  background-image: url(flood.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.intro1{
+  font-size: 35px;
+  color: white;
+  font-weight: 700px;
+  padding-top: 50px;
+}
+.intro2{
+  font-size: 20px;
+  color: rgb(253, 244, 252);
+  font-weight: 700px;
+  padding: 10px;
+}
+
+.button{
+  margin-top: 10px;
+  background-image: linear-gradient(to right, orange, tomato);
+  padding: 10px 30px;
+  color: white;
+  height: 20px;
+  text-decoration: none;
+}
+
+footer{
+  text-align: center;
+  padding: 20px;
+  background-color: darkblue;
+  color: white;
+}
+
+.donation-amount{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.amount-1{
+  padding: 20px;
+  background-color: #f4f4f4;
+  margin: 5px;
+  color: black;
+}
+
+.amount-2 {
+  padding: 20px;
+  background-color: #fcfcfc;
+  border: 1px solid orangered;
+  margin: 5px;
+  color: orangered;
+}
+.donation{
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.input-amount{
+  text-align: center;
+  margin-top: 20px;
+  border: none;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+}
+.donation-plan-header{
+  text-align: center;
+  padding: 50px;
+}
+
+.donation-plan{
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+}
+
+.donation-plan img{
+  width: 50px;
+}
+
+.food-donation{
+  background-color: #f4f4f4;
+  padding: 10px;
+  margin: 2px;
+}
+.medicine-donation {
+  background-color: #ffffcc;
+  padding: 10px;
+  margin: 2px;
+}
+
+.shelter-donation {
+  background-color: #ffccff;
+  padding: 10px;
+  margin: 2px;
+}
+
+.sylhet-flood{
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+}
+
+.half-width{
+  width: 50%;
+  margin: 20px;
+}
+
+.half-width img{
+  width: 100%;
+  height: 100%;
+}
+
+.subscribe-box{
+  background-color: lightcyan;
+  margin-left: 20%;
+  margin-right: 20%;
+  padding: 50px;
+}
+
+.subscribe-header{
+  text-align: center;
+}
+
+.subscribe{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email{
+  height: 35px;
+  padding: 5px;
+  border: none;
+  }
+
